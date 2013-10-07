@@ -1,0 +1,34 @@
+<map id="src/parsing/include/antioch/read_reaction_set_data_xml.h" name="src/parsing/include/antioch/read_reaction_set_data_xml.h">
+<area shape="rect" id="node3" href="$a00190.html" title="antioch/antioch_asserts.h" alt="" coords="2050,589,2237,616"/>
+<area shape="rect" id="node17" href="$a00203.html" title="antioch/string_utils.h" alt="" coords="3689,515,3842,541"/>
+<area shape="rect" id="node25" href="$a00152.html" title="antioch/reaction_set.h" alt="" coords="2740,109,2903,136"/>
+<area shape="rect" id="node33" href="$a00202.html" title="antioch/physical_constants.h" alt="" coords="476,589,682,616"/>
+<area shape="rect" id="node167" href="$a00145.html" title="antioch/kinetics_parsing.h" alt="" coords="1133,349,1319,376"/>
+<area shape="rect" id="node178" href="$a00151.html" title="antioch/reaction_parsing.h" alt="" coords="2185,109,2375,136"/>
+<area shape="rect" id="node187" href="$a00166.html" title="antioch/tinyxml2.h" alt="" coords="4057,515,4195,541"/>
+<area shape="rect" id="node5" href="$a00191.html" title="antioch/antioch_exceptions.h" alt="" coords="2039,672,2247,699"/>
+<area shape="rect" id="node27" href="$a00131.html" title="antioch/chemical_mixture.h" alt="" coords="2723,349,2921,376"/>
+<area shape="rect" id="node59" href="$a00149.html" title="antioch/reaction.h" alt="" coords="1904,275,2041,301"/>
+<area shape="rect" id="node127" href="$a00140.html" title="antioch/elementary\l_reaction.h" alt="" coords="2369,185,2515,226"/>
+<area shape="rect" id="node133" href="$a00139.html" title="antioch/duplicate_reaction.h" alt="" coords="2041,192,2243,219"/>
+<area shape="rect" id="node139" href="$a00153.html" title="antioch/threebody_reaction.h" alt="" coords="1756,192,1965,219"/>
+<area shape="rect" id="node145" href="$a00141.html" title="antioch/falloff_reaction.h" alt="" coords="2606,192,2785,219"/>
+<area shape="rect" id="node150" href="$a00148.html" title="antioch/lindemann_falloff.h" alt="" coords="3281,275,3474,301"/>
+<area shape="rect" id="node152" href="$a00154.html" title="antioch/troe_falloff.h" alt="" coords="2877,275,3029,301"/>
+<area shape="rect" id="node30" href="$a00132.html" title="antioch/chemical_species.h" alt="" coords="2455,515,2653,541"/>
+<area shape="rect" id="node38" href="$a00200.html" title="antioch/metaprogramming.h" alt="" coords="2312,589,2518,616"/>
+<area shape="rect" id="node42" href="$a00164.html" title="antioch/species_ascii\l_parsing.h" alt="" coords="2673,425,2829,466"/>
+<area shape="rect" id="node46" href="$a00133.html" title="antioch/species_enum.h" alt="" coords="2728,515,2905,541"/>
+<area shape="rect" id="node40" href="$a00201.html" title="antioch/metaprogramming\l_decl.h" alt="" coords="1791,665,1986,706"/>
+<area shape="rect" id="node62" href="$a00193.html" title="antioch/cmath_shims.h" alt="" coords="1554,515,1725,541"/>
+<area shape="rect" id="node68" href="$a00146.html" title="antioch/kinetics_type.h" alt="" coords="1362,515,1530,541"/>
+<area shape="rect" id="node76" href="$a00142.html" title="antioch/hercourtessen\l_rate.h" alt="" coords="1166,425,1330,466"/>
+<area shape="rect" id="node83" href="$a00137.html" title="antioch/berthelot_rate.h" alt="" coords="1355,432,1531,459"/>
+<area shape="rect" id="node90" href="$a00136.html" title="antioch/arrhenius_rate.h" alt="" coords="351,432,530,459"/>
+<area shape="rect" id="node98" href="$a00138.html" title="antioch/berthelothercourtessen\l_rate.h" alt="" coords="920,425,1142,466"/>
+<area shape="rect" id="node105" href="$a00147.html" title="antioch/kooij_rate.h" alt="" coords="554,432,701,459"/>
+<area shape="rect" id="node113" href="$a00155.html" title="antioch/vanthoff_rate.h" alt="" coords="725,432,895,459"/>
+<area shape="rect" id="node121" href="$a00150.html" title="antioch/reaction_enum.h" alt="" coords="1657,432,1838,459"/>
+<area shape="rect" id="node71" href="$a00143.html" title="antioch/kinetics_enum.h" alt="" coords="1363,589,1539,616"/>
+<area shape="rect" id="node154" href="$a00197.html" title="antioch/math_constants.h" alt="" coords="3198,349,3387,376"/>
+</map>

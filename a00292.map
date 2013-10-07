@@ -1,0 +1,17 @@
+<map id="src/kinetics/include/antioch/kinetics_parsing.h" name="src/kinetics/include/antioch/kinetics_parsing.h">
+<area shape="rect" id="node3" href="$a00190.html" title="antioch/antioch_asserts.h" alt="" coords="276,261,463,288"/>
+<area shape="rect" id="node17" href="$a00146.html" title="antioch/kinetics_type.h" alt="" coords="825,187,993,213"/>
+<area shape="rect" id="node30" href="$a00142.html" title="antioch/hercourtessen\l_rate.h" alt="" coords="1005,97,1169,138"/>
+<area shape="rect" id="node44" href="$a00137.html" title="antioch/berthelot_rate.h" alt="" coords="805,104,981,131"/>
+<area shape="rect" id="node51" href="$a00136.html" title="antioch/arrhenius_rate.h" alt="" coords="1441,104,1620,131"/>
+<area shape="rect" id="node60" href="$a00138.html" title="antioch/berthelothercourtessen\l_rate.h" alt="" coords="1194,97,1416,138"/>
+<area shape="rect" id="node67" href="$a00147.html" title="antioch/kooij_rate.h" alt="" coords="1644,104,1791,131"/>
+<area shape="rect" id="node75" href="$a00155.html" title="antioch/vanthoff_rate.h" alt="" coords="1815,104,1985,131"/>
+<area shape="rect" id="node83" href="$a00150.html" title="antioch/reaction_enum.h" alt="" coords="2009,104,2191,131"/>
+<area shape="rect" id="node5" href="$a00191.html" title="antioch/antioch_exceptions.h" alt="" coords="5,344,213,371"/>
+<area shape="rect" id="node20" href="$a00143.html" title="antioch/kinetics_enum.h" alt="" coords="821,261,997,288"/>
+<area shape="rect" id="node22" href="$a00200.html" title="antioch/metaprogramming.h" alt="" coords="538,261,744,288"/>
+<area shape="rect" id="node24" href="$a00201.html" title="antioch/metaprogramming\l_decl.h" alt="" coords="803,337,997,378"/>
+<area shape="rect" id="node33" href="$a00193.html" title="antioch/cmath_shims.h" alt="" coords="1220,187,1391,213"/>
+<area shape="rect" id="node55" href="$a00202.html" title="antioch/physical_constants.h" alt="" coords="1717,187,1923,213"/>
+</map>

@@ -1,0 +1,70 @@
+\form#0:$ \frac{1}{M} = \sum_s \frac{w_s}{M_s}$
+\form#1:$ w_s $
+\form#2:$ s $
+\form#3:$ M_s $
+\form#4:$ w_i = x_i \frac{M_i}{M} $
+\form#5:$ R \equiv \frac{\hat{R}}{M} $
+\form#6:$ R$
+\form#7:$ M $
+\form#8:\[ \alpha(T) = A \exp\left(-\frac{E_a}{\mathrm{R}T}\right) \]
+\form#9:$\mathrm{R}$
+\form#10:\[ \frac{\partial\alpha(T)}{\partial T} = \alpha(T) \frac{E_a}{\mathrm{R}T^2} \]
+\form#11:$e = \frac{E_a}{\mathrm{R}}$
+\form#12:\[ \alpha(T) = A \exp\left(D T\right) \]
+\form#13:\[ \frac{\partial\alpha(T)}{\partial T} = \alpha(T) D \]
+\form#14:\[ \alpha(T) = A \left(\frac{T}{\mathrm{T_\text{ref}}}\right)^\beta \exp\left(D T\right) \]
+\form#15:\[ \frac{\partial \alpha(T)}{\partial T} = \alpha(T) \left(\frac{\beta}{T} + D\right) \]
+\form#16:$t = \frac{T}{\mathrm{T_\text{ref}}}$
+\form#17:\[ k(T,[M]) = \sum_n\alpha_n(T) \]
+\form#18:$\alpha_i(T)$
+\form#19:$ith$
+\form#20:$[M]$
+\form#21:$[M] = \frac{P}{\mathrm{R}T}$
+\form#22:$\alpha_i$
+\form#23:\[ \begin{split} \frac{\partial k(T,[M])}{\partial T} & = \sum_n\frac{\partial \alpha_n(T)}{\partial T} \\[10pt] \frac{\partial k(T,[M])}{\partial c_i} & = 0 \end{split} \]
+\form#24:$c_i$
+\form#25:$i$
+\form#26:\[ k(T,[M]) = \alpha(T) \]
+\form#27:$\alpha(T)$
+\form#28:\[ \begin{split} \frac{\partial k(T,[M])}{\partial T} & = \frac{\partial \alpha(T)}{\partial T} \\[10pt] \frac{\partial k(T,[M])}{\partial c_i} & = 0 \end{split} \]
+\form#29:\[ k(T,[M]) = \frac{[M] k_0(T)}{1+[M]\frac{k_0(T)}{k_\infty(T)}}\times F \]
+\form#30:\[ \begin{split} k_0(T) & = \lim_{[M] \rightarrow 0} k(T,[M])\\ k_\infty(T) & = \lim_{[M] \rightarrow \infty} k(T,[M]) \end{split} \]
+\form#31:$k_0$
+\form#32:$k_\infty$
+\form#33:\[ \begin{split} k_0(T) & = \alpha_0(T) \\ k_\infty(T) & = \alpha_\infty(T) \end{split} \]
+\form#34:$\alpha_{i,\,i=0,\infty}(T)$
+\form#35:\[ \begin{split} \frac{\partial k(T,[M])}{\partial T} & = k(T,[M]) F \left( \frac{\partial k_0(T)}{\partial T}\frac{1}{k_0(T)} - \frac{\partial k_0(T)}{\partial T}\frac{1}{k_0(T) + \frac{k_\infty(T)}{[M]}} + \frac{\partial k_\infty(T)}{\partial T} \frac{k_0(T)}{k_\infty \left(k_0(T) + \frac{k_\infty(T)}{[M]}\right)} \right) + k(T,[M]) \frac{\partial F}{\partial T} \\[10pt] \frac{\partial k(T,[M])}{\partial c_i} & = F \frac{k(T,[M])}{[M] + [M]^2\frac{k_0(T)}{k_\infty(T)}} + k(T,[M]) \frac{\partial F}{\partial c_i} \end{split} \]
+\form#36:\[ \alpha(T) = A \left(\frac{T}{\mathrm{T_\text{ref}}}\right)^\beta \]
+\form#37:\[ \frac{\partial \alpha(T)}{\partial T} = \alpha(T) \frac{\beta}{T} \]
+\form#38:$a = \frac{A}{\mathrm{T_\text{ref}}^{\beta}}$
+\form#39:$k(T) = A * \left(\frac{T}{\mathrm{T_0}}\right)^\beta \exp\left(-\frac{E_a}{\mathrm{R}T} + D T\right)$
+\form#40:$\mathrm{T_0}$
+\form#41:\[ \begin{array}{ccc}\toprule \text{Parameter} & \text{reduced parameter} \\\midrule A & A \mathrm{T_0}^\beta \\ \beta & \beta \\ E_a & \frac{E_a}{\mathrm{R}}\\ D & D\\\bottomrule \end{array} \]
+\form#42:$\frac{T}{\mathrm{T_0}}$
+\form#43:$ \left(kg/sec/m^3\right)$
+\form#44:$ \frac{\partial \dot{\omega}}{dT} [\left(kg/sec/m^3/K\right)]$
+\form#45:$ \left(mole/sec/m^3\right)$
+\form#46:$ \frac{\partial \dot{\omega}}{dT} [\left(mole/sec/m^3/K\right)]$
+\form#47:\[ \alpha(T) = A \left(\frac{T}{\mathrm{T_\text{ref}}}\right)^\beta \exp\left(-\frac{E_a}{\mathrm{R}T}\right) \]
+\form#48:\[ \frac{\partial\alpha(T)}{\partial T} = \alpha(T) \left(\frac{\beta}{T} + \frac{E_a}{\mathrm{R}T^2}\right) \]
+\form#49:$a = \frac{A}{\mathrm{T_\text{ref}}^\beta}$
+\form#50:$F = 1$
+\form#51:\[ F = 1 \]
+\form#52:\[ \begin{split} \frac{\partial F}{\partial T} & = 0\\[10pt] \frac{\partial F}{\partial c_i} & = 0 \end{split} \]
+\form#53:$k(T,[M])$
+\form#54:\[ k(T,[M]) = \chi([M],\alpha(T)) \]
+\form#55:$\chi$
+\form#56:$\alpha$
+\form#57:\[ k(T,[M]) = \alpha(T)\times \sum_i\epsilon_ic_i \]
+\form#58:\[ \begin{split} \frac{\partial k(T,[M])}{\partial T} & = \frac{\partial \alpha(T)}{\partial T} \sum_i\epsilon_ic_i \\[10pt] \frac{\partial k(T,[M])}{\partial c_i} & = \alpha(T) \epsilon_i \end{split} \]
+\form#59:\[ \log_{10}\left(F\right) = \frac{\log_{10}\left(F_{\text{cent}}\right)} {1 + \left[ \frac{\log_{10}\left(P_r\right) + c} {n - d \cdot \left[\log_{10}\left(P_r\right) + c\right]} \right]^2} \]
+\form#60:\[ \begin{split} P_r & = [\mathrm{M}] \frac{k_0}{k_\infty} \\ n & = 0.75 - 1.27 \log_{10}\left(F_{\text{cent}}\right) \\ c & = - 0.40 - 0.67 \log_{10}\left(F_{\text{cent}}\right) \\ d & = 0.14 \\ F_{\text{cent}} & = (1 - \alpha) \cdot \exp\left(-\frac{T}{T^{***}}\right) + \alpha \cdot \exp\left(-\frac{T}{T^*}\right) + \exp\left(-\frac{T^{**}}{T}\right) \end{split} \]
+\form#61:\[ \begin{split} \frac{\partial F_{\text{cent}}}{\partial T} & = \frac{\alpha - 1}{T^{***}} \cdot \exp\left(-\frac{T}{T^{***}}\right) - \frac{\alpha}{T^{*}} \cdot \exp\left(-\frac{T}{T^*}\right) + \frac{T^{**}}{T^{2}} \exp\left(-\frac{T^{**}}{T}\right) \\ \frac{\partial \log_{10}\left(F_\text{cent}\right)}{\partial T} & = \frac{1}{\ln(10) F_\text{cent}}\frac{\partial F_\text{cent}}{\partial T} \\ \frac{\partial n}{\partial T} & = - 1.27 \frac{\partial \log_{10}\left(F_\text{cent}\right)}{\partial T} \\ \frac{\partial c}{\partial T} & = - 0.67 \frac{\partial \log_{10}\left(F_\text{cent}\right)}{\partial T} \\\\ \frac{\partial P_r}{\partial T} & = P_r \left(\frac{\partial k_0}{\partial T} \frac{1}{k_0} - \frac{\partial k_\infty}{\partial T} \frac{1}{k_\infty} \right)\\ \frac{\partial \log_{10}(P_r)}{\partial T} & = \frac{1}{\ln(10) P_r} \frac{\partial P_r}{\partial T} \\\\ \frac{\partial \log_{10}(F)}{\partial T} & = \frac{\partial \log_{10}\left(F_\text{cent}\right)}{\partial T} \frac{1}{1 + \left[\frac{\log_{10}\left(P_r\right) + c} {n - d\left(\log_{10}\left(P_r\right) + c\right)}\right]^2} - \log_{10}\left(F_\text{cent}\right) 2\left[\frac{\log_{10}\left(P_r\right) + c}{n - d \left[\log_{10}\left(P_r\right) + c\right]}\right]^2 \left[\frac{\frac{\partial \log_{10}\left(P_r\right)}{\partial T} + \frac{\partial c}{\partial T}} {\log_{10}\left(P_r\right) + c} - \frac{\frac{\partial n}{\partial T} - d \left[\frac{\partial \log_{10}\left(P_r\right)}{\partial T} + \frac{\partial c}{\partial T}\right]} {n - d \left[\log_{10}\left(P_r\right) + c\right]} \right] \frac{1}{\left[1 + \left[\frac{\log_{10}\left(P_r\right) + c} {n - d\left(\log_{10}\left(P_r\right) + c\right)} \right]^2 \right]^2} \\ & = \log_{10}\left(F\right) \left[\frac{\partial \log_{10}\left(F_\text{cent}\right)}{\partial T} \frac{1}{F_\text{cent}} - 2\left[\frac{\log_{10}\left(P_r\right) + c}{n - d \left[\log_{10}\left(P_r\right) + c\right]}\right]^2 \left[\frac{\frac{\partial \log_{10}\left(P_r\right)}{\partial T} + \frac{\partial c}{\partial T}} {\log_{10}\left(P_r\right) + c} - \frac{\frac{\partial n}{\partial T} - d \left[\frac{\partial \log_{10}\left(P_r\right)}{\partial T} + \frac{\partial c}{\partial T}\right]} {n - d \left[\log_{10}\left(P_r\right) + c\right]} \right] \frac{1}{1 + \left[\frac{\log_{10}\left(P_r\right) + c} {n - d\left(\log_{10}\left(P_r\right) + c\right)} \right]^2} \right] \\ \frac{\partial F}{\partial T} & = \ln(10) F \frac{\partial \log_{10}\left(F\right)}{\partial T} \\\\\\\\ \frac{\partial P_r}{\partial c_i} & = \frac{k_0}{k_\infty} \\ \frac{\partial \log_{10}(P_r)}{\partial c_i} & = \frac{1}{\ln(10) P_r} \frac{\partial P_r}{\partial c_i} = \frac{1}{\ln(10) [\mathrm{M}]}\\\\ \frac{\partial \log_{10}\left(F\right)}{\partial c_i} & = -\frac{\log_{10}^2\left(F\right)}{\log_{10}\left(F_\text{cent}\right)} \frac{\partial \log_{10}\left(P_r\right)}{\partial c_i} \left(1 - \frac{1}{n - d\left[\log_{10}\left(P_r\right) + c\right]}\right) \left(\log_{10}\left(P_r\right) + c\right) \\ \frac{\partial F}{\partial c_i} & = \ln(10) F \frac{\partial \log_{10}\left(F\right)}{\partial c_i} \end{split} \]
+\form#62:$T^{*}$
+\form#63:$T^{**}$
+\form#64:$T^{***}$
+\form#65:\[ \alpha(T) = A \left(\frac{T}{\mathrm{T_\text{ref}}}\right)^\beta \exp\left(-\frac{E_a}{\mathrm{R}T} + D T\right) \]
+\form#66:\[ \frac{\partial\alpha(T)}{\partial T} = \alpha(T)\left(D + \frac{\beta}{T} + \frac{E_a}{\mathrm{R}T^2}\right) \]
+\form#67:\[ C^{trans}_{v,s} \equiv \frac{\partial e^{trans}_s}{\partial T} = \frac{3}{2} R_s \]
+\form#68:\[ C^{tr}_{v,s} \equiv C^{trans}_{v,s} + C^{rot}_{v,s} \]
+\form#69:\[ C^{rot}_{v,s} \equiv C^{tr}_{v,s} - C^{trans}_{v,s} \]
