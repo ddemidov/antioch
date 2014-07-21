@@ -31,6 +31,7 @@
 
 // Antioch
 #include "antioch/reaction.h"
+#include "antioch/kinetics_conditions.h"
 
 //C++
 #include <string>
@@ -77,12 +78,12 @@ namespace Antioch
     //!
     template <typename StateType, typename VectorStateType>
     StateType compute_forward_rate_coefficient( const VectorStateType& molar_densities,
-                                                const StateType& T ) const;
+                                                const KineticsConditions<StateType,VectorStateType>& conditions ) const;
     
     //!
     template <typename StateType, typename VectorStateType>
     void compute_forward_rate_coefficient_and_derivatives( const VectorStateType& molar_densities,
-                                                           const StateType& T,  
+                                                           const KineticsConditions<StateType,VectorStateType>& conditions,  
                                                            StateType& kfwd,  
                                                            StateType& dkfwd_dT, 
                                                            VectorStateType& dkfwd_dX) const;
@@ -116,7 +117,7 @@ namespace Antioch
   template<typename StateType, typename VectorStateType>
   inline
   StateType ThreeBodyReaction<CoeffType>::compute_forward_rate_coefficient( const VectorStateType& molar_densities,
-                                                                            const StateType& T  ) const
+                                                                            const KineticsConditions<StateType,VectorStateType>& conditions  ) const
   {
     //k(T,[M]) = (sum eff_i * C_i) * ...
     StateType kfwd = (this->efficiency(0) * molar_densities[0] );
@@ -127,7 +128,7 @@ namespace Antioch
       }
 
     //... alpha(T)
-    return (kfwd * (*this->_forward_rate[0])(T));
+    return (kfwd * (*this->_forward_rate[0])(conditions));
   }
 
 
@@ -135,7 +136,7 @@ namespace Antioch
   template<typename StateType, typename VectorStateType>
   inline
   void ThreeBodyReaction<CoeffType>::compute_forward_rate_coefficient_and_derivatives( const VectorStateType &molar_densities,
-                                                                                       const StateType& T,  
+                                                                                       const KineticsConditions<StateType,VectorStateType>& conditions,  
                                                                                        StateType& kfwd, 
                                                                                        StateType& dkfwd_dT,
                                                                                        VectorStateType& dkfwd_dX) const
@@ -144,7 +145,7 @@ namespace Antioch
 
     //dk_dT = dalpha_dT * [sum_s (eps_s * X_s)]
     //dk_dCi = alpha(T) * eps_i
-    this->_forward_rate[0]->compute_rate_and_derivative(T,kfwd,dkfwd_dT);
+    this->_forward_rate[0]->compute_rate_and_derivative(conditions,kfwd,dkfwd_dT);
 
     dkfwd_dX[0] = kfwd;
     StateType coef = (this->efficiency(0) * molar_densities[0]);
