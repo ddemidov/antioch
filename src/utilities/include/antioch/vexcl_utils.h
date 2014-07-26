@@ -202,6 +202,7 @@ if_else(const vex::vector_expression<BoolInput> &condition,
 }
 
 
+#ifdef ANTIOCH_HAVE_VEXCL
 template <typename VectorT, typename IntT>
 inline
 typename enable_if_c<
@@ -218,6 +219,7 @@ eval_index(const VectorT& vec, const IntT& index)
     returnval[i] = vec[index[i]][i];
   return returnval;
 }
+#endif
 
 
 } // end namespace Antioch
