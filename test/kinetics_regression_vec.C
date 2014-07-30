@@ -230,6 +230,8 @@ int vectester(const std::string& input_name,
     gt.BeginTimer(testeigenA);
 #endif
 
+    const Antioch::KineticsConditions<PairScalars,SpeciesVecEigenType> eigen_conditions(T);
+
     SpeciesVecEigenType eigen_Y;
     Antioch::init_constant(eigen_Y, massfrac);
 
@@ -257,7 +259,7 @@ int vectester(const std::string& input_name,
 
     thermo.dh_RT_minus_s_R_dT(Cache(T),eigen_dh_RT_minus_s_R_dT);
 
-    kinetics.compute_mass_sources( T, eigen_molar_densities, eigen_h_RT_minus_s_R, eigen_omega_dot );
+    kinetics.compute_mass_sources( eigen_conditions, eigen_molar_densities, eigen_h_RT_minus_s_R, eigen_omega_dot );
 
 #ifdef ANTIOCH_HAVE_GRVY
     gt.EndTimer(testeigenA);
@@ -284,6 +286,8 @@ int vectester(const std::string& input_name,
 
   {
     typedef Eigen::Matrix<PairScalars,Eigen::Dynamic,1> SpeciesVecEigenType;
+    const Antioch::KineticsConditions<PairScalars,SpeciesVecEigenType> eigen_conditions(T);
+
     SpeciesVecEigenType eigen_Y(n_species,1);
     Antioch::init_constant(eigen_Y, massfrac);
 
@@ -317,7 +321,7 @@ int vectester(const std::string& input_name,
 
     thermo.dh_RT_minus_s_R_dT(Cache(T),eigen_dh_RT_minus_s_R_dT);
 
-    kinetics.compute_mass_sources( T, eigen_molar_densities, eigen_h_RT_minus_s_R, eigen_omega_dot );
+    kinetics.compute_mass_sources( eigen_conditions, eigen_molar_densities, eigen_h_RT_minus_s_R, eigen_omega_dot );
 
 #ifdef ANTIOCH_HAVE_GRVY
     gt.EndTimer(testeigenV);
