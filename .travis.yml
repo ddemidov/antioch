@@ -8,4 +8,5 @@ before_script:
 script:
   - git clone https://github.com/ddemidov/vexcl
   - ./bootstrap && ./configure --with-vexcl=${PWD}/vexcl
+  - dd if=/dev/zero of=swapfile bs=1024 count=2097152 && mkswap swapfile && sudo swapon swapfile
   - make && make check || (cat test/test-suite.log && false)
